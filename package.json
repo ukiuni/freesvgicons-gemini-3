@@ -1,0 +1,13 @@
+{
+  "name": "freesvgicons",
+  "version": "1.0.0",
+  "description": "10,000 Free SVG Icons",
+  "scripts": {
+    "generate": "node scripts/generate_icons.js",
+    "start": "npx serve public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
