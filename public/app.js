@@ -25,7 +25,10 @@ searchInput.addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase();
     visibleIcons = allIcons.filter(icon =>
         icon.id.includes(query) ||
-        icon.tags.some(tag => tag.includes(query))
+        (icon.name_en && icon.name_en.toLowerCase().includes(query)) ||
+        (icon.name_ja && icon.name_ja.includes(query)) ||
+        (icon.tags_en && icon.tags_en.some(tag => tag.toLowerCase().includes(query))) ||
+        (icon.tags_ja && icon.tags_ja.some(tag => tag.includes(query)))
     );
 
     // Reset grid

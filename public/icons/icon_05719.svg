@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" fill="#FFEB3B" rx="20" />
-  <g transform="rotate(180 50 50)">
-    <polygon points="50,20 80,50 50,80 20,50" fill="#8BC34A" />
+  <circle cx="50" cy="50" r="48" fill="#E6EE9C" opacity="0.2" />
+  <g fill="#E6EE9C" stroke="#E6EE9C" stroke-width="0">
+    <circle cx="50" cy="50" r="35" /><circle cx="35" cy="40" r="5" fill="white"/><circle cx="65" cy="40" r="5" fill="white"/><path d="M35,60 Q50,75 65,60" stroke="white" stroke-width="3" fill="none" />
   </g>
 </svg>

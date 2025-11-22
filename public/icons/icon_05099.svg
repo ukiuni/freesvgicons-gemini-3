@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" fill="#9C27B0" rx="20" />
-  <g transform="rotate(180 50 50)">
-    <rect x="25" y="25" width="50" height="50" rx="10" fill="#673AB7" />
+  
+  <g fill="#0D47A1" stroke="#0D47A1" stroke-width="0">
+    <line x1="20" y1="20" x2="80" y2="80" stroke-width="10" stroke-linecap="round" /><line x1="80" y1="20" x2="20" y2="80" stroke-width="10" stroke-linecap="round" />
   </g>
 </svg>

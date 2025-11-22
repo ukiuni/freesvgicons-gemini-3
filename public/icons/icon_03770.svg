@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" fill="#795548" rx="20" />
-  <g transform="rotate(270 50 50)">
-    <polygon points="50,20 80,80 20,80" fill="#FF5722" />
+  <rect x="5" y="5" width="90" height="90" rx="20" fill="#E6EE9C" opacity="0.2" />
+  <g fill="#E6EE9C" stroke="#E6EE9C" stroke-width="0">
+    <rect x="25" y="40" width="50" height="40" /><rect x="20" y="30" width="60" height="10" /><line x1="50" y1="30" x2="50" y2="80" stroke-width="5" />
   </g>
 </svg>
